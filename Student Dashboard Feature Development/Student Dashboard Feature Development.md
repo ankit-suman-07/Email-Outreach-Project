@@ -1,18 +1,7 @@
 # StuConnect - Revolutionizing Communication in Education
 
-A Game Listing Websites based on the design and workings of Netflix.
-- This App has been deployed directly from Github repositories, hence no build files are required.
-- Any changes in the repository leads to the changes in the deployed App.
-- Backend Deployed URL: [backend](https://server-gameit.onrender.com/)
-- Frontend Deployed URL : [front-end]( https://gameit.vercel.app/)
-
 Table of Contents
 - [StuConnect - Revolutionizing Communication in Education](#stuconnect---revolutionizing-communication-in-education)
-    - [Deployed Link](#deployed-link)
-    - [Deployment Technology](#deployment-technology)
-  - [Setting Up the Application](#setting-up-the-application)
-    - [Prerequisites](#prerequisites)
-    - [Steps to run locally](#steps-to-run-locally)
   - [Background](#background)
   - [Problem Statement](#problem-statement)
   - [Goals](#goals)
@@ -33,28 +22,20 @@ Table of Contents
     - [Let's delve deeper into the rationale behind this decision:](#lets-delve-deeper-into-the-rationale-behind-this-decision)
     - [Proposed Solution:](#proposed-solution)
   - [Concept Mocks](#concept-mocks)
+    - [Chat feature section](#chat-feature-section)
+    - [Discussion Forum](#discussion-forum)
+    - [Rooms feature](#rooms-feature)
+    - [Group Study Feature](#group-study-feature)
+    - [Live Doubt Clearing](#live-doubt-clearing)
+    - [Collaborative Tool](#collaborative-tool)
+  - [Risks \& Mitigations](#risks--mitigations)
+    - [1. Potential resistance from learners accustomed to external networks:](#1-potential-resistance-from-learners-accustomed-to-external-networks)
+    - [2. Technical glitches or system downtime affecting user experience:](#2-technical-glitches-or-system-downtime-affecting-user-experience)
+    - [3. Sharing of unnecessary outside content and links by learners:](#3-sharing-of-unnecessary-outside-content-and-links-by-learners)
+- [Appendix A (Alternatives)](#appendix-a-alternatives)
+- [Appendix B (Competitors)](#appendix-b-competitors)
+- [Appendix C (Research)](#appendix-c-research)
 
-### Deployed Link
-
-[GameIt](https://game-netflix.netlify.app/)
-
-### Deployment Technology
-- **Frontend**: vercel.com
-- **Backend**: render.com
-
-
-## Setting Up the Application
-
-### Prerequisites
-- Node.js installed on your machine
-
-### Steps to run locally
-
-1. **Fork the Repository**
-
-   Click on the 'Fork' button on the top right corner of this repository's page. This will create a copy of the repository in your GitHub account.
-
-2. **Clone the Repository**
 
 ## Background
 
@@ -243,3 +224,73 @@ While exploring options for integrating communication features into the EduWorld
 
 ## Concept Mocks
 
+### Chat feature section
+![My Image](mocks/chat.png)
+
+### Discussion Forum
+![My Image](mocks/forum.png)
+
+### Rooms feature 
+![My Image](mocks/rooms.png)
+
+### Group Study Feature
+![My Image](mocks/live.png)
+
+### Live Doubt Clearing
+![My Image](mocks/doubt.png)
+
+### Collaborative Tool
+![My Image](mocks/whiteboard.png)
+
+## Risks & Mitigations
+
+### 1. Potential resistance from learners accustomed to external networks:
+
+***Mitigation:***
+- Implement comprehensive user training sessions to familiarize learners with the features and benefits of the in-house communication platform. Provide step-by-step tutorials, video guides, and interactive demos to showcase the functionality and ease of use.
+- Create incentives or rewards for early adopters to encourage participation and engagement with the new platform. Recognize and celebrate learners who actively contribute to discussions, forums, and study groups within the EduWorld platform.
+- Facilitate peer-to-peer support networks where experienced users can mentor and assist newcomers in navigating the features and addressing any challenges or concerns.
+- Continuously solicit feedback from learners and incorporate their suggestions for improving the platform's usability, features, and overall experience. Adopt an iterative approach to development based on user input and preferences.
+
+### 2. Technical glitches or system downtime affecting user experience:
+
+***Mitigation:***
+- Implement rigorous testing procedures, including unit testing, integration testing, and user acceptance testing, to identify and resolve potential technical issues before deployment. Engage beta testers or pilot groups to evaluate the platform's performance in real-world scenarios and gather feedback for refinement.
+- Establish a dedicated support team or helpdesk to provide timely assistance and troubleshooting guidance to users encountering technical difficulties. Maintain clear communication channels and escalation procedures for reporting and addressing issues promptly.
+- Implement robust monitoring and alerting systems to proactively detect and mitigate system downtime or performance degradation. Monitor key performance metrics, such as server response time, uptime, and error rates, to ensure optimal platform reliability and availability.
+- Develop a comprehensive disaster recovery plan outlining procedures for data backup, system restoration, and failover mechanisms in the event of unforeseen disruptions or emergencies. Conduct regular drills and simulations to validate the effectiveness of the recovery procedures and minimize downtime impact.
+
+### 3. Sharing of unnecessary outside content and links by learners:
+
+***Mitigation:***
+- Implement content moderation algorithms and filters to automatically detect and flag inappropriate or unauthorized content shared within the platform. Utilize machine learning algorithms and keyword-based filters to identify potentially harmful or irrelevant materials and prevent their dissemination.
+- Empower administrators and moderators with the authority to review flagged content, remove or restrict access to violating materials, and enforce disciplinary actions against repeat offenders. Establish clear guidelines and community standards outlining acceptable behavior and content usage to promote a safe and respectful learning environment.
+- Educate users on the importance of responsible content sharing and the potential consequences of violating platform policies. Provide regular reminders, training sessions, and awareness campaigns to reinforce the importance of adhering to content guidelines and fostering a positive online community.
+- Encourage user reporting and flagging of inappropriate content through intuitive reporting mechanisms and prompts. Empower users to take an active role in maintaining the integrity and safety of the platform by promptly reporting any violations or suspicious activities they encounter.
+
+# Appendix A (Alternatives)
+
+| Alternatives |                                                                                     Features                                                                                      |
+| :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| MirrorFly    |     _MirrorFly offers a white-label solution to build in-app communication features with 150+ customizable chat and call features, 99.999% uptime SLA and ultra-low latency._     |
+| Amity        | _Everything you need from a chat API and feature rich chat SDK. With Amity Chat SDK, you can build messaging in your app with all the features of an instant messaging platform._ |
+| CometChat    |                     _CometChat is a communication platform that offers text chat, voice and video functionality for websites and apps across all industries._                     |
+
+
+# Appendix B (Competitors)
+
+| Competitors     |                                                                                                                                                                                                                   Features                                                                                                                                                                                                                   |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| TeachMint       | _Teachmint is a leading multinational corporation and creator of the Integrated School Platform (ISP) with over 15 million users in 25+ countries. Available in 20+ languages, the ISP is a school operating system empowering all stakeholders in a school with a unique all-in-one platform that offers state of the art administrator tools for better school management and a modern LMS to enable better learning outcomes in schools._ |
+| upGrad          |                                                                                  _A direct competitor. upGrad is a platform similar to EduWorld and provides multiple courses online. upGrad has a built-in chat app but it is only available for asking doubts to the admins. Learners still rely on external solutions for interacting with each other._                                                                                   |
+| OpenEdu         |                         _OpenEdu has efficiently supported educational institutions and companies with a suite of technology and level of customer service that allows Learning & Development professionals, LMS administrators and instructors to focus on creating quality learning and an engaging learning experience that allows both learners and stakeholders to enjoy learning and track learning results._                          |
+| PowerSchool SIS |                                                                                                                          _PowerSchool SIS is a leading provider of cloud-based K-12 software, PowerSchool supports educators, administrators, and families to help learners learn in a way that’s right for them._                                                                                                                           |
+
+# Appendix C (Research)
+
+- [Integrating a Chatting Tool into a Learning Management System](https://www.researchgate.net/publication/265853498_Integrating_a_Chatting_Tool_into_a_Learning_Management_System)
+- [Use of live chat in higher education to support self-regulated help seeking behaviours: a comparison of online and blended learner perspectives](https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-021-00253-2)
+- [How an Australian Telecom Company Increased Collaboration & Productivity by Connecting 15,000 Employees With a Real-time Chat](https://www.mirrorfly.com/blog/success-story-of-an-australian-telecom-company-with-real-time-chat/)
+- [How in-app chats help e-learning platforms to be more interactive?](https://habr.com/en/articles/687634/)
+- [Live Chat Software: How It Benefits Both Organizations & Customers](https://knowmax.ai/blog/live-chat-software/)
+- [Why E-learning Platforms Need In-App Chat?](https://www.cometchat.com/blog/why-elearning-platforms-need-in-app-chat)
